@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.hero {
+  background-color: #1e293b;
+  color: white;
+  padding: 60px 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.cv-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #facc15;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.about, .skills, .projects, .contact {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+.skills .skill-box {
+  margin-top: 20px;
+}
+
+.skills .bar {
+  height: 12px;
+  background: #ddd;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bar-react::after {
+  content: '';
+  display: block;
+  background: #61dafb;
+  width: 90%;
+  height: 100%;
+}
+
+.bar-node::after {
+  content: '';
+  display: block;
+  background: #68a063;
+  width: 80%;
+  height: 100%;
+}
+
+.bar-mongo::after {
+  content: '';
+  display: block;
+  background: #4db33d;
+  width: 70%;
+  height: 100%;
+}
+
+.bar-html::after {
+  content: '';
+  display: block;
+  background: #e44d26;
+  width: 95%;
+  height: 100%;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2563eb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #1e293b;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+.skill-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.bar-python::after {
+  content: '';
+  display: block;
+  background: #3776ab;
+  width: 85%;
+  height: 100%;
+}
+
+.bar-mysql::after {
+  content: '';
+  display: block;
+  background: #00758f;
+  width: 75%;
+  height: 100%;
+}
+
+.bar-kotlin::after {
+  content: '';
+  display: block;
+  background: #7f52ff;
+  width: 60%;
+  height: 100%;
+}
